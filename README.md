@@ -6,7 +6,7 @@
 Simple script that does a fetch on every repository that resides inside a
 directory.
 
-### sync_git.all.sh
+### sync_git_all.sh
 
 This script can do a git pull over every repository that resides inside a directory.
 Does a recursive search of git repositories over the directory that takes as 
