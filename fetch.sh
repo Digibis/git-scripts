@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "This script does fetch --prune on all repositories"
+
 fetch() {
   local dir=$1
   pushd "$dir" > /dev/null
