@@ -6,6 +6,13 @@
 Simple script that does a fetch on every repository that resides inside a
 directory.
 
+### rmTarget.sh
+
+Simple script that clear "target" folder inside of every folder (only depth 2).
+Useful if you have a bunch of maven projects but actually are only working on
+a few. Deleting the unused target folders, could clean some noticeable hard
+disk space.
+
 ### sync_git_all.sh
 
 This script can do a git pull over every repository that resides inside a directory.
