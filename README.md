@@ -6,6 +6,14 @@
 Simple script that does a fetch on every repository that resides inside a
 directory.
 
+### removeTarget.sh
+
+Simple script that executes a "mvn clean" inside of every maven projects inside
+a folde### removeTarget.sh
+
+Simple script that executes a "mvn clean" inside of every maven projects inside
+a folderr
+
 ### rmTarget.sh
 
 Simple script that clear "target" folder inside of every folder (only depth 2).
@@ -16,10 +24,10 @@ disk space.
 ### sync_git_all.sh
 
 This script can do a git pull over every repository that resides inside a directory.
-Does a recursive search of git repositories over the directory that takes as 
+Does a recursive search of git repositories over the directory that takes as
 argument, and does a git pull over the develop branch.
 
-It get back to the branch where the repository was and does a git stash of any 
+It get back to the branch where the repository was and does a git stash of any
 local changes and restores the stash when the pull process ends.
 Also, launch many process to process every repository on parallel.
 
