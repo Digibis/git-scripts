@@ -9,10 +9,7 @@ directory.
 ### removeTarget.sh
 
 Simple script that executes a "mvn clean" inside of every maven projects inside
-a folde### removeTarget.sh
-
-Simple script that executes a "mvn clean" inside of every maven projects inside
-a folderr
+a folde
 
 ### rmTarget.sh
 
